@@ -16,3 +16,4 @@ function isPalindrome(numString = "") {
 
 console.log(isPalindrome("101")); // "101" palindrome
 console.log(isPalindrome("201")); // "201" !palindrome
+
