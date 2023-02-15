@@ -11,7 +11,8 @@ function isPalindrome(numString = "") {
   for (let i = numString.length - 1; i >= 0; i--) {
     res += numString[i];
   }
-  return res == numString;
+  return res == numString; // boolean
 }
 
-console.log(isPalindrome("101"));
+console.log(isPalindrome("101")); // "101" palindrome
+console.log(isPalindrome("201")); // "201" !palindrome
