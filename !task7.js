@@ -8,3 +8,15 @@
 бошанд, пас ҳеҷ чиз баровардан лозим нест.
 
 */
+
+function square(x, y) {
+  let ver = 0;
+  for (let index = x; index < y; index++) {
+    ver = index * index;
+    if (ver >= x && ver <= y) {
+      console.log(ver);
+    }
+  }
+}
+
+console.log(square(1, 10));
