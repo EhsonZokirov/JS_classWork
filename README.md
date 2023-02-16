@@ -94,17 +94,32 @@
 
 ### Task 16
 
-> AREA  ( a * b ) /2
+> AREA ( a \* b ) /2
 
 ### Task 17
 
 > тот же номер или нет / is Same Number
+
 ### Task 18
 
 > Factorial - Recursion
+
 ### Task 19
 
 > Сумма от 1 до N - Recursion
+
 ### Task 20
 
-> Pow - Recursion
+> pow - Recursion
+
+### Task 21
+
+> sum of 2 function - Замыкание
+
+### Task 22
+
+> sum of 3 function - Замыкание
+
+### Task 23
+
+> sum of 6 function - Замыкание
