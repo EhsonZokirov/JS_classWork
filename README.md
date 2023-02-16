@@ -101,4 +101,10 @@
 > тот же номер или нет / is Same Number
 ### Task 18
 
-> тот же номер или нет / is Same Number
+> Factorial - Recursion
+### Task 19
+
+> Сумма от 1 до N - Recursion
+### Task 20
+
+> Pow - Recursion
