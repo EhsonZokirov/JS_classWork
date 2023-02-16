@@ -1,4 +1,4 @@
-# Задачки по JavaScript
+# Задачки JavaScript - Functions (declaretion, expression, recursion, Zamikanie)
 
 ### Task 1
 
