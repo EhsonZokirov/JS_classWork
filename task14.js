@@ -1,7 +1,5 @@
 function lessThan(a, b) {
-  if (a + b > 100) {
-    return false;
-  } else return true;
+  return a + b > 100 ? false : true;
 }
-
-console.log(lessThan(99, 1));
+console.log(lessThan(98, 1)); // true
+console.log(lessThan(99, 2)); // false
