@@ -8,14 +8,12 @@
 
 // console.log(res);
 
-
 //// recursion
-let res = 1;
 function power(a, b) {
   if (b == 1) {
     return a;
   }
-  return (res = a * power(a, b - 1));
+  return a * power(a, b - 1);
 }
 console.log(power(2, 2)); //4
 console.log(power(2, 3)); //8
