@@ -1,10 +1,10 @@
 function duplicateNumbers(arr) {
   let arr2 = [...arr];
   return arr2.filter((e, i) => {
-    return arr2.indexOf(e) != i;
+    return arr.indexOf(e) != i;
   });
 }
-console.log(duplicateNumbers([1, 2, 3, 4, 5, 3, 6])); // [3]
+console.log(duplicateNumbers([1, 2, 3, 4, 3, 5, 6])); // [3]
 console.log(duplicateNumbers([1, 72, 3, 81, 72, 3, 81])); // [72,3,81]
 
 /* 
