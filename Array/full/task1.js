@@ -6,4 +6,3 @@ function evenOrOdd(...arr) {
 }
 // console.log(evenOrOdd([1, 1])); // even
 console.log(evenOrOdd([])); // even
-
