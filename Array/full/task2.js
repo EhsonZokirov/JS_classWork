@@ -1,5 +1,4 @@
 function numInStr(arr) {
-  let res = [];
   let arr2 = [...arr];
   return arr2.filter((e) => {
     return (
