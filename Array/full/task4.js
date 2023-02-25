@@ -9,8 +9,8 @@
 
 function marathonDistance(arr) {
   let arr2 = [];
-  arr.reduce((a, b) => {
-    return (arr2 = a + b);
+  arr2 = arr.reduce((a, b) => {
+    return Math.abs(a) + Math.abs(b);
   });
   return arr2 == 25 ? true : false;
 }
