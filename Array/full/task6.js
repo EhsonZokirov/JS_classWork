@@ -1,7 +1,7 @@
 function reverseArr(arr) {
   let res = [];
   let arr2 = arr.toString().split("").reverse();
-  arr2 = arr2.filter((e) => res.push(Number(e)));
+  arr2.filter((e) => res.push(Number(e)));
 
   return res;
 }
