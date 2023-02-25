@@ -1,5 +1,4 @@
 function removeDups(arr) {
-  let arr2 = [...new Set(arr)];
-  return arr2;
+  return [...new Set(arr)];
 }
 console.log(removeDups(["John", "Taylor", "John"])); // [ 'John', 'Taylor' ]
