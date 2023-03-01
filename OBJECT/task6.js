@@ -5,6 +5,15 @@ let persons = {
   Ben: 29,
 };
 function oldest(obj) {
-  return Object.keys(obj).sort((a, b) => obj[a] - obj[b]).slice(-1).join();
+  return Object.keys(obj)
+    .sort((a, b) => obj[a] - obj[b])
+    .slice(-1)
+    .join();
 }
 console.log(oldest(persons)); // Emma
+
+/*
+Учитывая объект, содержащий имена и возраст группы
+людей, вернуть имя самого старого человека.
+
+*/

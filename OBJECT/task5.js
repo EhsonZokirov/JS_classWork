@@ -19,7 +19,7 @@ function getStudentTopNotes(arr) {
   let arr1 = [];
 
   for (let i = 0; i < arr.length; i++) {
-    arr1.push(Math.max(...arr[i].notes.sort()));
+    arr1.push(Math.max(...arr[i].notes));
   }
   return arr1;
 }

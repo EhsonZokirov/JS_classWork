@@ -6,3 +6,8 @@ function isEmpty(obj) {
 }
 console.log(isEmpty({})); // true
 console.log(isEmpty({ a: 1 })); // false
+
+/* 
+Напишите функцию, которая возвращает true, если объект
+пуст, и false в противном случае.
+*/
