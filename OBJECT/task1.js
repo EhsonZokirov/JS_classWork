@@ -4,5 +4,5 @@ function isEmpty(obj) {
   }
   return false;
 }
-console.log(isEmpty({ a: 1 })); // false
 console.log(isEmpty({})); // true
+console.log(isEmpty({ a: 1 })); // false
