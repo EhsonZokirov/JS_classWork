@@ -11,10 +11,4 @@ function biges5000(obj) {
   Object.keys(obj).map((e) => (obj[e] < 5000 ? delete obj[e] : obj));
   return obj;
 }
-console.log(
-  biges5000({
-    tv: 4999,
-    guitar: 5000,
-    fork: 5001,
-  })
-);
+console.log(biges5000({ tv: 4999, guitar: 5000, fork: 5001 }));
