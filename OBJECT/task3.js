@@ -12,3 +12,6 @@ function biges5000(obj) {
   return obj;
 }
 console.log(biges5000({ tv: 4999, guitar: 5000, fork: 5001 }));
+
+
+

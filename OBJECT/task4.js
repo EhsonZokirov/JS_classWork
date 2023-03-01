@@ -16,10 +16,7 @@ let arrObj = [
 ];
 
 function score(arr) {
-  let res = arr.map((e) => {
-    return Number(e.score);
-  });
-  return res.reduce((a, b) => a + b);
+  let res = arr.map((e) => Number(e.score));
+  return res.reduce((a, b) => a + b, 0);
 }
-
 console.log(score(arrObj)); // 28
