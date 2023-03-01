@@ -1,4 +1,4 @@
-let array = [
+let arrayObj = [
   {
     id: 1,
     name: "Jack",
@@ -24,7 +24,7 @@ function getStudentTopNotes(arr) {
   return arr1;
 }
 
-console.log(getStudentTopNotes(array)); // [ 5, 5, 4 ]
+console.log(getStudentTopNotes(arrayObj)); // [ 5, 5, 4 ]
 
 /* 
 Создайте функцию, которая принимает массив студентов и
